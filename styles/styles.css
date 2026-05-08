@@ -1,0 +1,159 @@
+body {
+    background-color:rgb(170, 201, 162);
+}
+
+/* Bron: https://fonts.google.com/selection/embed */
+/* Font 'Fredoka' overgenomen van Google Fonts met embed code in HTML */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(78, 61, 14);
+    text-align: center;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(78, 61, 14);
+    text-align: center;
+    margin: 5px;
+    font-weight: 600;
+}
+
+p {
+    color: rgb(78, 61, 14);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+/* Bron: Kevin Powell - "How to create a progress bar with animations"
+   https://www.youtube.com/watch?v=kjhsS4lNZ9o
+   Geraadpleegd op 8 mei 2026 */
+
+.progresswater {
+    position: relative;
+    width: 1000px;
+    height: 40px;
+    background:  rgb(160, 209, 207);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1.5px solid white;
+    margin: 2px;
+}
+
+.progresswater_fill {
+    width: 0%;
+    height: 100%;
+    background: #3b88a0;
+    transition: all 0.2s;
+}
+
+.progresswater_text {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    font: bold 14px;
+    color: white;
+}
+
+.progressoxygen {
+    position: relative;
+    width: 1000px;
+    height: 40px;
+    background:  rgb(147, 180, 140);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1.5px solid white;
+    margin: 2px;
+}
+
+.progressoxygen_fill {
+    width: 0%;
+    height: 100%;
+    background: rgb(80, 197, 54);
+    transition: all 0.2s;
+}
+
+.progressoxygen_text {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    font: bold 14px;
+    color: white;
+}
+
+.progresssun {
+    position: relative;
+    width: 1000px;
+    height: 40px;
+    background:  rgb(221, 223, 137);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1.5px solid white;
+    margin: 2px;
+}
+.progresssun_fill {
+    width: 0%;
+    height: 100%;
+    background: rgb(225, 228, 49);
+    transition: all 0.2s;
+}
+
+.progresssun_text {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    font: bold 14px;
+    color: white;
+}
+
+button {
+    width: 250px;
+    height: 70px;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+    font-weight: 550;
+    background-color: #262c06; 
+    border: 3.5px solid white;
+    font-family: 'Fredoka', sans-serif;
+}
+
+button:hover {
+    width: 270px;
+    height: 80px;
+    transition: all 0.1s ease;
+}
+
+button:active {
+    color:white;
+    border: 10px solid white;
+    transition: all 0.2s ease;
+}

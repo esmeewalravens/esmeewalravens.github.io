@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mossy de ecogotchi!</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Bron https://fonts.google.com/selection/embed - bevat het extra font Fredoka, die ik gebruik voor de tekst van deze website -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1>Ecogotchi</h1>
+        <h2>Hi, ik ben Mossy, jouw ecologische tamagotchi!</h2>
+          
+        <div class="progresswater"> <!-- Bron: https://www.youtube.com/watch?v=kjhsS4lNZ9o 'How to create a progress bar with animations' op Youtube --> 
+        <div class="progresswater_fill"></div> 
+        <span class="progresswater_text">0%</span>
+        </div>
+
+        <div class="progressoxygen"> <!-- Bron: https://www.youtube.com/watch?v=kjhsS4lNZ9o 'How to create a progress bar with animations' op Youtube -->
+        <div class="progressoxygen_fill"></div> 
+        <span class="progressoxygen_text">0%</span>
+        </div>
+
+        <div class="progresssun"> <!-- Bron: https://www.youtube.com/watch?v=kjhsS4lNZ9o 'How to create a progress bar with animations' op Youtube -->
+        <div class="progresssun_fill"></div> 
+        <span class="progresssun_text">0%</span>
+        </div>
+        
+        <p>Als je goed voor mij zorgt, kan ik groeien!</p>
+    </header>
+    <main>
+        <img src="/images/mossy.png" id="mossy_zero" alt="mossy in originele staat"> <!-- Bron afbeelding: gemaakt met behulp van ChatGPT van OpenAI https://chatgpt.com/ -->
+    </main>
+    <footer>
+        <button class="buttonwater">Water</button>
+        <button class="buttonoxygen">Zuurstof</button>
+        <button class="buttonsun">Zon</button>
+
+    </footer>
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
